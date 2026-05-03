@@ -79,7 +79,7 @@ ipl-ml-assignment/
 2. Navigate to the dataset: [IPL Complete Dataset 2008-2025 (Enhanced Edition)](https://www.kaggle.com/datasets/meruvakodandasuraj/ipl-complete-dataset-2008-2025-enhanced-edition/deliveries.csv)
 3. Click **"New Notebook"** on the dataset page.
 4. Upload the `.ipynb` files from this repository one at a time.
-5. The dataset path will be: `/kaggle/input/ipl-data-set/deliveries.csv`
+5. The dataset path will be: `/kaggle/input/datasets/meruvakodandasuraj/ipl-complete-dataset-2008-2025-enhanced-edition/deliveries.csv`
 6. Run all cells in order using **Run All**.
 7. Figures are saved to `figures/` and tables to `tables/` in the Kaggle working directory.
 

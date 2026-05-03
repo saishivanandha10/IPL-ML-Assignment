@@ -89,29 +89,36 @@ ipl-ml-assignment/
 
 ## Generated Outputs
 
-### Figures (saved as PDF)
+### Figures (saved as PDF) - 15 files
 | File | Description | RQ |
 |------|-------------|-----|
-| `Figure_1_1_class_distribution.pdf` | Class imbalance bar chart | RQ1 |
-| `Figure_1_2_ROC_curves.pdf` | ROC curves for all classifiers | RQ1 |
-| `Figure_2_1_top_bowlers.pdf` | Top 15 bowlers by wicket rate | RQ2 |
-| `Figure_2_2_phase_wicket_rate.pdf` | Wicket rate by over phase | RQ2 |
-| `Figure_3_1_imbalance_comparison.pdf` | PR curves & metric comparison | RQ3 |
-| `Figure_4_1_regression_results.pdf` | Predicted vs actual total_runs | RQ4 |
-| `Figure_5_1_team_phase_heatmap.pdf` | Team performance heatmap | RQ5 |
-| `Figure_6_1_confusion_matrix_dismissal.pdf` | Dismissal type confusion matrix | RQ6 |
-| `Figure_7_1_feature_importance_comparison.pdf` | Raw vs context feature importance | RQ7 |
+| `Figure_1_1_class_distribution.pdf` | Class imbalance bar chart (wicket vs no-wicket) | 24 KB | RQ1 |
+| `Figure_1_2_ROC_curves.pdf` | ROC-AUC curves for all 5 classifiers | 122 KB | RQ1 |
+| `Figure_2_1_top_bowlers.pdf` | Top 15 bowlers by wicket-per-delivery rate | 33 KB | RQ2 |
+| `Figure_2_2_phase_wicket_rate.pdf` | Wicket rate per over phase & per over number | 29 KB | RQ2 |
+| `Figure_2_3_feature_importance.pdf` | RF feature importances including bowler identity | 24 KB | RQ2 |
+| `Figure_3_1_imbalance_comparison.pdf` | PR curves & metric bars across imbalance strategies | 59 KB | RQ3 |
+| `Figure_4_0_runs_distribution.pdf` | Distribution of total_runs per delivery | 20 KB | RQ4 |
+| `Figure_4_1_regression_results.pdf` | Predicted vs actual scatter + residual histogram | 33 KB | RQ4 |
+| `Figure_4_2_xgb_feature_importance.pdf` | XGBoost feature importances for runs regression | 22 KB | RQ4 |
+| `Figure_5_1_team_phase_heatmap.pdf` | Run rate & wicket rate heatmap by team and phase | 39 KB | RQ5 |
+| `Figure_5_2_phase_model_f1.pdf` | Phase-specific model F1-scores bar chart | 23 KB | RQ5 |
+| `Figure_6_1_confusion_matrix_dismissal.pdf` | Multi-class confusion matrix for dismissal types | 30 KB | RQ6 |
+| `Figure_6_2_dismissal_feature_importance.pdf` | Feature importances for dismissal classification | 22 KB | RQ6 |
+| `Figure_7_1_feature_importance_comparison.pdf` | Raw vs context feature importance (colour-coded) | 27 KB | RQ7 |
+| `Figure_7_2_feature_set_comparison.pdf` | F1 & ROC-AUC bar comparison: raw vs enriched | 28 KB | RQ7 |
 
-### Tables (saved as CSV)
-| File | Description | RQ |
-|------|-------------|-----|
-| `Table_1_1_model_performance.csv` | All model metrics comparison | RQ1 |
-| `Table_2_1_top_bowlers_wicket_rate.csv` | Top 15 bowlers stats | RQ2 |
-| `Table_3_1_imbalance_strategies.csv` | Imbalance strategy comparison | RQ3 |
-| `Table_4_1_regression_performance.csv` | Regression model metrics | RQ4 |
-| `Table_5_1_team_phase_stats.csv` | Team-wise phase statistics | RQ5 |
-| `Table_6_1_dismissal_per_class_metrics.csv` | Per-class dismissal metrics | RQ6 |
-| `Table_7_1_feature_set_comparison.csv` | Raw vs context feature results | RQ7 |
+### Tables (saved as CSV) — 8 files
+| File | Description | Size | RQ |
+|------|-------------|------|----|
+| `Table_1_1_model_performance.csv` | Accuracy, Precision, Recall, F1, ROC-AUC for all classifiers | 1 KB | RQ1 |
+| `Table_2_1_top_bowlers_wicket_rate.csv` | Top 15 bowlers: deliveries, wickets, wicket rate | 1 KB | RQ2 |
+| `Table_3_1_imbalance_strategies.csv` | Precision, Recall, F1, ROC-AUC, PR-AUC per strategy | 1 KB | RQ3 |
+| `Table_4_1_regression_performance.csv` | MAE, RMSE, R² for all regression models | 1 KB | RQ4 |
+| `Table_5_1_team_phase_stats.csv` | Team-wise run rate & wicket rate by over phase | 3 KB | RQ5 |
+| `Table_5_2_phase_model_performance.csv` | Phase-specific model F1 and ROC-AUC | 1 KB | RQ5 |
+| `Table_6_1_dismissal_per_class_metrics.csv` | Per-class Precision, Recall, F1, Support | 1 KB | RQ6 |
+| `Table_7_1_feature_set_comparison.csv` | Raw vs context-enriched feature set comparison | 1 KB | RQ7 |
 
 ---
 

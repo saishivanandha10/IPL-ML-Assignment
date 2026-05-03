@@ -17,7 +17,7 @@ This project applies supervised machine learning to IPL (Indian Premier League) 
 | Attribute | Details |
 |-----------|---------|
 | **Name** | IPL Deliveries Dataset |
-| **Source** | [Kaggle — IPL Ball-by-Ball Data](https://www.kaggle.com/datasets/ramjidoolla/ipl-data-set) |
+| **Source** | [Kaggle — IPL Ball-by-Ball Data](https://www.kaggle.com/datasets/meruvakodandasuraj/ipl-complete-dataset-2008-2025-enhanced-edition/deliveries.csv) |
 | **Rows** | 20,000 deliveries |
 | **Columns** | 18 features |
 | **Coverage** | 172 IPL matches, 8 teams |
@@ -76,7 +76,7 @@ ipl-ml-assignment/
 ## How to Run on Kaggle
 
 1. Go to [Kaggle](https://www.kaggle.com) and log in.
-2. Navigate to the dataset: [IPL Ball-by-Ball Data](https://www.kaggle.com/datasets/ramjidoolla/ipl-data-set)
+2. Navigate to the dataset: [IPL Ball-by-Ball Data](https://www.kaggle.com/datasets/meruvakodandasuraj/ipl-complete-dataset-2008-2025-enhanced-edition/deliveries.csv)
 3. Click **"New Notebook"** on the dataset page.
 4. Upload the `.ipynb` files from this repository one at a time.
 5. The dataset path will be: `/kaggle/input/ipl-data-set/deliveries.csv`
